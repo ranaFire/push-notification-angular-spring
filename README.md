@@ -20,4 +20,4 @@ Import using
 To solve the issue with 'global' I had to add the following to index.html
 
 
-```<script type="application/javascript"> var global = window; </script>````
+```` <script type="application/javascript"> var global = window; </script>```` 
