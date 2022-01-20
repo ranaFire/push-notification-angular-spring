@@ -9,15 +9,23 @@ ng add @angular/material
 
 Install
 
-```npm i --save sockjs-client stompjs net```` 
+```
+npm i --save sockjs-client stompjs net
+```` 
 Then
 
-```npm i --save-dev @types/sockjs-client @types.stompjs```` 
+```
+npm i --save-dev @types/sockjs-client @types.stompjs
+```` 
 Import using
 
-```import _ as SockJS from 'sockjs-client'; import _ as Stomp from 'stompjs';```` 
+```
+import _ as SockJS from 'sockjs-client'; import _ as Stomp from 'stompjs';
+'```` 
 
 To solve the issue with 'global' I had to add the following to index.html
 
 
-```` <script type="application/javascript"> var global = window; </script>```` 
+````
+<script type="application/javascript"> var global = window; </script>
+```` 
