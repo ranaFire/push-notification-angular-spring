@@ -1,5 +1,14 @@
-## Front end:
+## Frontend:
 
+```` 
+ng serve
+```` 
+## Backend:
+```` 
+mvn spring:boot:run
+```` 
+
+### For Fronend
 
 ```ng new websocket-frontend
 cd websocket-frontend
@@ -21,7 +30,7 @@ Import using
 
 ```
 import _ as SockJS from 'sockjs-client'; import _ as Stomp from 'stompjs';
-'```` 
+```` 
 
 To solve the issue with 'global' I had to add the following to index.html
 
@@ -29,3 +38,5 @@ To solve the issue with 'global' I had to add the following to index.html
 ````
 <script type="application/javascript"> var global = window; </script>
 ```` 
+
+
