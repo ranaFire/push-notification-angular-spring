@@ -1,4 +1,4 @@
-# Websocket Push notification (angular and  spring boot)
+# Websocket push notification (angular and  spring boot)
 ## Frontend:
 
 ```` 
